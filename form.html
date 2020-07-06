@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head><title>form login</title>
+<link rel="stylesheet" type="text/css"href=form.css>
+	<script language="javascript">
+	function val()
+	{
+
+	var s1,s2,s3,s4,s5;
+	s1=document.frms.txtn.value;
+	s2=document.frms.txto.value;
+	s3=document.frms.txta.value;
+	s4=document.frms.txtp.value;
+	s5=s1.length;
+	if(s1=="")
+	{
+		alert("please enter your name sir");
+		return;
+		}
+	if(s2=="")
+	{
+		alert("please enter your order sir");
+				return;
+		}
+	if(s3=="")
+	{
+		alert("please enter your adress sir");
+				return;
+}
+	if(s4=="")
+	{
+		alert("please enter your phone number sir");
+		return;
+		}
+	if(s5<5)
+	{
+		alert("please enter your real name sir");
+		return;
+		}
+	}
+	</script>
+</head>
+<body>
+	<div id=l>
+		<ul>
+	<li><a href=sagar.html>HOME</a></li> 
+	<li><a href=#>ABOUT US</a></li>
+		<li><a href=#>CONTACT US</a></li>
+	<li><a href=form.html>BOOKING</a></li>
+	</ul>
+	<img src="rest.jpg" class="rest">
+	
+	</div>
+	<div class="logbox">
+	<img src="av.png" class="av"/>
+	<h1>login here </h1>
+	<form name="frms">
+		<p>USER NAME</p><input type="text" name="txtn"  ></inputype>
+	 <p>FOOD</p><input type="text" name="txto" ></ ></inputype>
+	  <p>ADREASS</p><input type="text" name="txta" ></ ></inputype>
+	 <p>PHONE NUMBER</p><input type="number" name="txtp"></inputype>
+	<p><input type="submit" value="submit"onClick="val()"></p>
+	</form>
+	</div>
+</body>
+</html>

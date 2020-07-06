@@ -1,0 +1,126 @@
+body 
+{
+padding:0;
+margin:0;
+background:url(f.jpg);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+}
+#l{
+background-color:white;
+height:10px;
+}
+.rest{
+width:80px;
+height:85px;
+border-radius:50%;
+}
+
+#l ul{
+float:right;
+margin-top:52px;
+}#l ul li
+{
+display:inline;
+margin:2px;
+}
+#l ul li a{
+background:white;
+text-decoration:none;
+padding:20px 20px;
+border-radius:10px;
+color:black;
+}
+#l ul li a:hover{
+cursor:pointer;
+background:#fb2525;
+color:#000;
+}
+.logbox{
+width:380px;
+height:500px;
+background:black;
+color:white;
+top:20%;
+left:35%;
+position:absolute;
+transform:transilate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+.av{
+width:100px;
+height:100px;
+border-radius:50%;
+position:absolute;
+top:-50px;
+right:25%;
+left:calc(50% - 50px);
+}
+h1{
+margin:0;
+padding:0 0 20px;
+text-align:center;
+font size:29px;
+}
+.logbox p{
+margin:0;
+padding:0;
+font weight:bold;
+} 
+.logbox input{
+width:100%;
+margin-bottom:20px;
+}
+
+.logbox input[type="text"] ,input[type=number]
+{
+border:none;
+border-bottom:1px  solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:19px;
+}
+.logbox input[type="submit"] 
+{
+border: none;
+outline: none;
+height: 40px;
+background:white;
+color:black;
+font-size: 18px;
+border-radius: 20px;
+}
+.logbox input[type="submit"]:hover
+{
+cursor:pointer;
+background:#fb2525;
+color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
